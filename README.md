@@ -11,4 +11,5 @@ Solution for the task to create API for Products with authentication
 7. To perform CRUD operations: create (POST /api/Products), update (PUT /api/Products/{id}), delete (DELETE /api/Products/{id}) use token from step 5 using Bearer method
 ![image](https://github.com/user-attachments/assets/9a82bf87-ec6c-4ffb-8f63-b1962a9dfcf4)
 
-8. Audit Logs and Tests were not implemented as requested.
+8. To change VAT amount please edit customSettings.json file "VAT" property.
+9. Audit Logs and Tests were not implemented as requested.
