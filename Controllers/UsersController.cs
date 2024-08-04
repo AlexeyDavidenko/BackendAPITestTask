@@ -123,7 +123,7 @@ namespace BackendAPIDevelopmentTask.Controllers
         }
         private bool IsUserExists(LoginViewModel userModel)
         {
-            return GetUser != null;
+            return GetUser(userModel) != null;
         }
 
         private User? GetUser(LoginViewModel userModel)
